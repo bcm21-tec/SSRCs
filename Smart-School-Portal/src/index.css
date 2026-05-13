@@ -1,0 +1,270 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navBar-container {
+  background: rgba(97, 3, 97, 0.958);
+  padding: 2rem;
+  border: 0;
+  position: fixed;
+  width: 100vw;
+  text-align: center;
+}
+
+  .navTxt {
+    font-size: 1.6rem;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 2rem;
+    text-decoration: none;
+    transition: 1s;
+  }
+
+  .navTxt:hover {
+    color: #408af3;
+  }
+
+  
+
+  .homeTxt {
+    padding-top: 20rem;
+    text-align: center;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0,0,0,0)), url('../Images/web-background-img.png');;
+    color: #fdfeff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 56.5vh;
+    font-size: 1.6rem;
+    
+  }
+
+  .homeptxt {
+    font-size: 1.5rem;
+    font-family: monospace;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 2;
+    padding-top: 1.5rem;
+  }
+
+  .btn, .btn2 {
+    padding: 1rem;
+    width: 15rem;
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    background-color: #1885d8;
+    border: 0;
+    cursor: pointer;
+    border-radius: .4rem;
+    color: #ffffff;
+    font-weight: 750;
+    transition: 0.5s;
+  }
+
+  .btn2 {
+     background-color: #ea990c;
+     color: #fffbee;
+     font-weight: 750;
+  }
+
+  .btn:hover {
+    background: #00ae00;
+    color: #ffffff;
+    width: 750;
+  }
+
+  .btn2:hover {
+    background: #00ae00;
+    color: #fff;
+  }
+
+  .btnDiv {
+    display:flex ;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+ .stdlst {
+  padding-top: 13rem;
+  text-align: center;
+ }
+
+ .input {
+  margin-left: 30rem;
+  margin-top: 2rem;
+  padding: .8rem;
+  margin-right: 1rem;
+  width: 30rem;
+  font-size: 1rem;
+  margin-bottom: 7rem;
+ }
+
+  .stuLis{
+    margin-left: 3rem;
+    margin-top: 2rem;
+    padding: 2rem;
+    width: 40%;
+    line-height: 2.7;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.21);
+    border-radius: 2rem;
+  }
+
+  .passspan {
+    color: #00ae00;
+    font-weight: 600;
+  }
+
+  .failspan {
+    color: #f73939;
+    font-weight: 600;
+  }
+
+  .stdbtn {
+    padding: .5rem;
+    width: 8rem;
+    font-weight: 600;
+    background: #fff;
+    border: 1px solid #7a767c;
+    cursor: pointer;
+  }
+
+  .resultDiv {
+    line-height: 2;
+    padding: 2rem;
+    padding-top: 10rem;
+  }
+
+  .resulttxt {
+    text-align: center;
+  }
+  .resultnam {
+   text-align: center;
+   color: #00ae00;
+   padding-top: 2rem;
+  }
+
+  .resultgrid{
+    padding-top: 2rem;
+  }
+
+  .class {
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .subsco {
+    padding-top: 2rem;
+  }
+
+  .grade {
+    padding-bottom: 1rem;
+  }
+
+  .totdiv {
+    line-height: 2.4;
+  }
+
+  .contactus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 19rem;
+    font-size: 1.8rem;
+    padding-left: 36rem;
+    margin-bottom: 11rem;
+  }
+
+  .faq {
+    padding-top: 10rem;
+    text-align: center;
+  }
+
+  .faqh2 {
+    padding: 2rem;
+    padding-bottom: 0;
+    padding-top: 4rem;
+  }
+
+  .faqp {
+    padding: 2rem;
+    padding-top: 1rem;
+    line-height: 2;
+  }
+
+  .background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+  background: #fff6f0;
+}
+
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.4;
+  filter: blur(40px);
+  animation: float 12s infinite ease-in-out;
+}
+
+.blob1 {
+  width: 200px;
+  height: 200px;
+  background: #f38108db;
+  top: 10%;
+  left: 50%;
+}
+
+.blob2 {
+  width: 250px;
+  height: 250px;
+  background: #f75d5dd0;
+  top: 60%;
+  left: 80%;
+  animation-delay: 3s;
+}
+
+.blob3 {
+  width: 180px;
+  height: 180px;
+  background: #32e70ea6;
+  top: 70%;
+  left: 30%;
+  animation-delay: 6s;
+}
+
+.blob4 {
+   width: 180px;
+  height: 180px;
+  background: #0e90e7aa;
+  top: 40%;
+  left: 10%;
+  animation-delay: 6s;
+}
+
+.abtus{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.abtsec {
+  padding: 2rem;
+  width: 90%;
+  margin: 0 auto;
+  line-height: 3;
+}
+
+.footerCopyright{
+  color: #fdfeff;
+  background: #312c2ca2;
+  text-align: center;
+  font-size: 1rem;
+  padding: 2rem;
+  margin-top: 2rem;
+}
